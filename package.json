@@ -1,7 +1,7 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
-  "private": true,
+  "private": "true",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
@@ -10,7 +10,7 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -31,10 +31,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://silversavi.github.io/robofriends/",
-    "scripts":{
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-    }
-  }
+  },
+  "homepage": "https://silversavi.github.io/robofriends/"
 }
