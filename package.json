@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://silversavi.github.io/robofriends/"
+  "homepage": "https://silversavi.github.io/robofriends/",
   "version": "0.1.0",
   "private": "true",
   "dependencies": {
@@ -31,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
